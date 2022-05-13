@@ -1,0 +1,132 @@
+nav {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(77, 34, 34);
+    color: #000;
+  }
+  .navitems {
+    display: flex;
+    align-items: center;
+    
+  }
+  .navitems h2 {
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .navitems button {
+    width: 20%;
+    height: 10vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+    
+  }
+  .fetchbtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+  }
+  .userdatacontainer {
+    width: 100%;
+    height: fit-content;
+    background-color:  #bed3d6;
+  }
+  #main {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .name:hover {
+    color: rgb(245, 12, 31);
+  }
+
+  .profile_cont {
+    align-self: auto;
+    background-color: #00cec9;
+    color: rgb(32, 3, 3);
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform ease 0.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    margin-top: 5vh;
+    border-radius: 7%;
+  }
+  .profile_cont:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  img{
+    /* margin:px 0px 0 0; */
+    width:200px;
+    height: 200px;
+    
+    right:30px;
+    top:40px;
+    border-radius: 100%;
+
+}
+
+
+.footer {
+  text-align: center;
+  padding: var(--gutter-medium) 0 var(--gutter-normal);
+  /* padding: 1000px;
+  position: sticky;
+  bottom: 0; */
+  margin-top: 1323px;
+  background-color:  #bed3d6;
+  font-size: large;
+}
+
+.footer__social-links {
+  display: flex;
+  justify-content: center;
+  padding: var(--gutter-normal) 0;
+  list-style: none;
+}
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+p{
+  font-family: 'Hk Grotesk';
+}
+
+.footer__social-link-item:not(:last-of-type) {
+  margin-right: var(--gutter-small);
+}
+
+.footer__social-image {
+  height: 4rem;
+}
+
+.footer__github-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__github-buttons iframe {
+  height: 2.5rem;
+  width: 84px;
+  transform: translateY(3px);
+}
+
+@media(max-width: 500px) {
+  .footer {
+      padding: var(--gutter-medium) 0;
+  } 
+}
